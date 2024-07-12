@@ -1,10 +1,8 @@
 import React from 'react'
 
-const User = () => {
+function User() {
   return (
-    <div>
-      User
-    </div>
+    <div>User</div>
   )
 }
 
