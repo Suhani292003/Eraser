@@ -4,6 +4,10 @@ import React, { useEffect } from 'react'
 import { Button } from '@/components/ui/button'
 import { useConvex, useMutation, useQuery } from 'convex/react'
 import { api } from '@/convex/_generated/api'
+import Header from './_components/Header'
+import FileList from './_components/FileList'
+
+
 
 function Dashboard() {
 
@@ -33,10 +37,10 @@ function Dashboard() {
     }
   }
   return (
-    <div>Dashboard
-        <Button>
-            <LogoutLink>Logout</LogoutLink>
-        </Button>
+    <div className='p-8'>
+        <Header/>
+
+        <FileList/>
         
     </div>
   )

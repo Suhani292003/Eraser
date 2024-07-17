@@ -67,8 +67,8 @@ function SideNavBottomSection({onFileCreate,totalFiles}:any) {
             <Button type="button" 
             className='bg-blue-600
             hover:bg-blue-700'
-            disabled={!(fileInput&&fileInput.length>3)}
-            onClick={()=>onFileCreate(fileInput)}
+            // disabled={!(fileInput&&fileInput.length>3)}
+            // onClick={()=>onFileCreate(fileInput)}
             >
               Create
             </Button>
